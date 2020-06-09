@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SATpage</title>
+</head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 1200px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Satrajit Ghosh</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+	      <li><a href="#other">Miscellaneous</a></li>
+<!--    <li><a href="#contact">Contact</a></li> -->
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid text-center">
+  <div class="row content">
+
+  <div class="col-sm-2 sidenav">
+     <p><img src="sat.jpg" class="img-responsive"> </p>
+  </div>
+
+  <div class="col-sm-8 text-left">
+      <h3>Welcome to my homepage</h3>
+      <p>I am a Post-doctoral Fellow at the <a href=http://cs.au.dk/research/cryptography-and-security/ target="_blank">Cryptography and Security Group</a>, <a href=http://www.au.dk/en/ target="_blank"> Aarhus University</a>
+        hosted by <a href=https://securemultipartycomputation.network/ target="_blank"> Jesper Buus Nielsen</a> since January 2019.
+        More information about our group can be found <a href=http://users-cs.au.dk/orlandi/cryptogroup/ target="_blank">here</a>.
+        I obtained my PhD from the <a href=http://cs.au.dk/ target="_blank"> Department of Computer Science</a>,<a href=http://www.au.dk/en/ target="_blank"> Aarhus University</a>
+        under the supervision of <a href=https://securemultipartycomputation.network/ target="_blank"> Jesper Buus Nielsen</a> and <a href=http://www.cs.au.dk/~orlandi/ target="_blank"> Claudio Orlandi</a>. </p>
+
+      <p>I received my Masters degree from the <a href="http://cse.iitkgp.ac.in/" target="_blank">Computer Science and Engineering Department</a>, <a href="http://www.iitkgp.ac.in/" target="_blank">IIT Kharagpur</a> under the guidance of <a href=http://cse.iitkgp.ac.in/~abhij/ target="_blank">Dr. Abhijit Das</a>. Prior to that, I did my B.Tech in Computer Science and Engineering and B.Sc (Honors) in Physics from <a href="http://www.caluniv.ac.in/" target="_blank">University Of Calcutta</a>.</p>
+
+      <p>Before joining Aarhus University, I worked as researcher at the <a href=http://www.isical.ac.in/~rcbose/ target="_blank">R. C. Bose Centre of Cryptology and Security</a>,<a href=http://www.isical.ac.in/ target="_blank"> Indian Statistical Institute</a> and in the <a href=http://gradschool.cs.uni-saarland.de target="_blank"> Graduate School of Computer Science, Saarland University</a>.</p>
+      <hr>
+      <h3><a class="anchor" id="research">Research</a></h3>
+      <p>My research interest varies over many aspects of theoretical computer science, with the focus on cryptography and security. Specifically I am interested in design and analysis of provably secure "efficient" cryptographic primitives. Currently I am working on different projects related to secure multi-party computation.</p>
+
+      <h4>Publications</h4>
+
+      <ul class="pub">
+
+        <li>Improved Primitives for MPC over Mixed Arithmetic-Binary Circuits [<a href=https://eprint.iacr.org/2020/338.pdf target="_blank">ePrint</a>]
+        <br /><p>In <a href=https://crypto.iacr.org/2020/ target="_blank">Crypto (2020)</a> -- <a href="https://deescuderoo.github.io/" target="_blank">Daniel Escudero</a>, Satrajit Ghosh, <a href="https://people.csiro.au/k/m/marcel-keller" target="_blank">Marcel Keller</a>, <a href="https://rahulrachuri.github.io/" target="_blank">Rahul Rachuri</a>, <a href="https://pascholl.github.io/" target="_blank">Peter Scholl</a>.</p>
+        </li>
+
+        <li>The Communication Complexity of Threshold Private SetIntersection [<a href=https://eprint.iacr.org/2019/175.pdf target="_blank">ePrint</a>]
+        <br />In <a href=https://crypto.iacr.org/2019/ target="_blank">Crypto (2019)</a> -- Satrajit Ghosh, <a href="https://msimkin.github.io/" target="_blank">Mark Simkin</a>.
+        <br /> <p style="color:red"><strong>Invited to Journal of Cryptology</strong>.</p>
+        </li>
+
+        <li>An Algebraic Approach to Maliciously Secure Private Set Intersection [<a href=https://eprint.iacr.org/2017/1064.pdf target="_blank">ePrint</a>]
+        <br /><p>In <a href=https://eurocrypt.iacr.org/2019/ target="_blank">Eurocrypt (2019)</a> -- Satrajit Ghosh, <a href="https://crypto.iti.kit.edu/?id=nilges" target="_blank">Tobias Nilges</a>.</p>
+        </li>
+
+        <li>Maliciously Secure Oblivious Linear Function Evaluation with Constant Overhead [<a href=https://eprint.iacr.org/2017/409.pdf target="_blank">ePrint</a>]
+        <br /><p>In <a href=https://asiacrypt.iacr.org/2017/ target="_blank">Asiacrypt (2017)</a> -- Satrajit Ghosh, <a href=http://www.cs.au.dk/~jbn/ target="_blank"> Jesper Buus Nielsen</a>, <a href="https://crypto.iti.kit.edu/?id=nilges" target="_blank">Tobias Nilges</a>.</p>
+        </li>
+
+        <li>TinyOLE: Efficient Actively Secure Two-Party Computation from Oblivious Linear Function Evaluation [<a href=https://eprint.iacr.org/2017/790.pdf target="_blank">ePrint</a>]
+        <br /><p>In <a href=https://www.sigsac.org/ccs/CCS2017/ target="_blank">ACM CCS (2017)</a> -- <a href=https://sites.google.com/site/nicodoettling/ target="blank">Nico Döttling</a>, Satrajit Ghosh, <a href=http://www.cs.au.dk/~jbn/ target="_blank"> Jesper Buus Nielsen</a>,
+        <a href=https://crypto.iti.kit.edu/?id=nilges target="_blank">Tobias Nilges</a>, <a href=http://robtrifiletti.com/ target="_blank">Roberto Trifiletti</a>.</p>
+        </li>
+
+	      <li>Post-Quantum Forward Secure Onion Routing (Future Anonymity in Today’s Budget) [<a href=https://eprint.iacr.org/2015/008 target="_blank">ePrint</a>]
+	      <br /><p>In <a href=http://acns2015.cs.columbia.edu/accepted/ target="_blank">ACNS (2015)</a> -- Satrajit Ghosh, <a href=https://www.cs.purdue.edu/homes/akate/ target="blank">Aniket Kate</a>.</p>
+	      </li>
+
+	      <li> New Variants of Algebraic Attacks Based on Structured Gaussian Elimination [<a href=http://wmc2012.unican.es/SCC_WMC_2012.pdf target="_blank">SCC</a>]
+	      <br /><p>(Extended abstract) In <a href=http://scc2012.unican.es/index.html target="_blank"> SCC (2012)</a> -- Satrajit Ghosh, <a href=http://cse.iitkgp.ac.in/~abhij/ target="_blank">Abhijit Das</a>.</p>
+        </li>
+
+        <li>An improvement of linearization-based algebraic attacks [<a href=http://link.springer.com/chapter/10.1007%2F978-3-642-24586-2_14 target="_blank">LNCS</a>]
+	      <br />In <a href=http://dblp.uni-trier.de/db/conf/infosechicomnet/infosechicomnet2011.html target="_blank">SPACE (2011)</a> -- Satrajit Ghosh, <a href=http://cse.iitkgp.ac.in/~abhij/ target="_blank">Abhijit Das</a>.
+	      </li>
+
+
+	<h5>Manuscript(s)</h5>
+
+		<li>Improvements of Algebraic Attacks Based on Structured Gaussian Elimination [<a href=https://eprint.iacr.org/2012/176.pdf target="_blank">ePrint</a>]
+	  <br /><p>  -- Satrajit Ghosh, <a href=http://cse.iitkgp.ac.in/~abhij/ target="_blank">Abhijit Das</a>.</p>
+    </li>
+
+<h5>Thesis</h5>
+
+    <li>Secure Computation Based On Oblivious Linear Function Evaluation [<a href=https://www.forskningsdatabasen.dk/en/catalog/2442828043 target="_blank">pdf</a>]
+    <br /><p> PhD Thesis, Aarhus University, 2019.</p>
+    </li>
+
+		<li>Improvements of Linearization-Based Algebraic Attacks on Block Ciphers [<a href=MS_Thesis.pdf target="_blank">pdf</a>]
+	  <br /><p> Master's Thesis, IIT Kharagpur, 2012.</p>
+    </li>
+
+       </ul>
+
+<h4>Academic Services</h4>
+
+<h5>As an external reviewer : <small>Crypto (2020, 2019), Eurocrypt (2020, 2018, 2016), Asiacrypt (2020, 2019, 2018, 2017), SAC (2019), Indocrypt (2019, 2016), TCC (2018, 2017, 2016-B), ACM CCS (2019, 2018), PKC (2019, 2018, 2016), ACISP 2016, ProvSec 2014, SPACE 2014.</small>
+</h5>
+      <hr>
+      <h3><a class="anchor" id="teaching">Teaching</a></h3>
+
+      <ul class="pub">
+
+      <li>I worked as a Teaching Assistant in the <a href=http://kursuskatalog.au.dk/da/course/64232 target="_blank">Security</a>, <a href=http://kursuskatalog.au.dk/da/course/64208 target="_blank">Databases</a> and <a href=http://kursuskatalog.au.dk/da/course/57781 target="_blank">Concurrency</a> courses at<a href=http://www.au.dk/en/ target="_blank"> Aarhus University</a>.</li>
+
+      <li>I worked as a Teaching Assistant in <a href=http://cse.iitkgp.ac.in/~abhij/course/theory/CNT/Spring11/ target="_blank">Computational Number Theory</a> (Spring 2011),
+      <a href=http://cse.iitkgp.ac.in/~abhij/course/theory/ADA/Autumn10/ target="_blank">Algorithm Design and Analysis</a> (Autumn 2010),
+     	<a href=http://cse.iitkgp.ac.in/~abhij/course/lab/CompLab-I/Autumn09/ target="_blank">Computing Laboratory</a> (Autumn 2009) and
+      <a href=http://cse.iitkgp.ac.in/~abhij/course/lab/PDS/Spring09/ target="_blank">Programming and Data Structure Laboratory</a> (Spring 2009) courses at IIT Kharagpur.
+    </li>
+
+      </ul>
+
+      <hr>
+      <h3><a class="anchor" id="other">Miscellaneous</a></h3>
+
+      <ul class="pub">
+
+          <li> Link to <a href=http://www.multipartycomputation.com/mpc-software target="_black">MPC Softwares</a>. </li>
+
+      </ul>
+
+    </div>
+
+
+    <div class="col-sm-2 sidenav">
+      <div class="well text-left">
+        <h5>Contact Information</h5>
+	<!--        <img src="email.png" class="img-responsive" alt="EMail" /> &nbsp; -->
+	<h5>email:<small> 1<sup>st</sup> name at cs.au.dk; Otherwise send it to
+  my  last name dot first five letters of my first-name and then gmail.</small></h5>
+ <!--       <img src="images/phone.png" alt="Phone" />  &nbsp;
+        +91 (33) 2575 2037 (Office) <br /> -->
+        <h5>Address:<small>
+	Department of Computer Science,
+	Aabogade 34,
+	8200 Aarhus N,
+	Denmark.</small></h5>
+	<h5>Office:<small> Nygaard 288 </small> </h5>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="container-fluid text-right">
+  <p>Last updated on June 2, 2020.</p>
+</footer>
+
+</body>
+</html>
