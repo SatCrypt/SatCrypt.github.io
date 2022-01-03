@@ -176,7 +176,7 @@
 	  
       <h5> <b>Current Semester (Spring 2022):</b> </h5> 
 	  <h5> <b>Theory:</b><a href=foc.html target="_blank"> Foundations of Cryptography (CS60088)</a>.</h5>
-	  <h5> <b>Lab:</b> Programming and Data Structures (CS60088).</h5>
+	  <h5> <b>Lab:</b> Programming and Data Structures (CS19003).</h5>
 	  <hr>
  
 	<h5> <b>Previous:</b> </h5>
@@ -226,15 +226,6 @@
     </div>
   </div>
 </div>
-
-
-
-<footer class="container-fluid text-right">
-
-<p>Last updated on November 8, 2021.</p>
-<a href="https://www.w3schools.com/">W3Schools.com</a>
-
-</footer>
 
 </body>
 </html>
